@@ -25,10 +25,10 @@
 			<plugin>
 				<groupId>com.github.github</groupId>
 				<artifactId>site-maven-plugin</artifactId>
-				<version>0.11</version>
+				<version>0.12</version>
 				<configuration>
 					<!-- git commit message -->
-					<message>Maven artifacts for ${project.version}</message>
+					<message>Maven artifacts for v${project.version}</message>
 					<!-- disable webpage processing -->
 					<noJekyll>true</noJekyll>
 					<!-- matches distribution management repository url above -->
@@ -113,6 +113,11 @@
 			<groupId>com.esotericsoftware.yamlbeans</groupId>
 			<artifactId>yamlbeans</artifactId>
 			<version>1.09</version>
+		</dependency>
+		<dependency>
+			<groupId>cn.heroes</groupId>
+			<artifactId>jkit</artifactId>
+			<version>0.4.3</version>
 		</dependency>
 	</dependencies>
 	<properties>
