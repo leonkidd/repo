@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>cn.heroes</groupId>
 	<artifactId>walle</artifactId>
-	<version>0.1.1</version>
+	<version>0.1.2</version>
 	<name>walle</name>
 	<description>Weixin framework for java, Named by WALL·E.</description>
 	<distributionManagement>
